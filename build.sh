@@ -1,4 +1,4 @@
 #! /bin/bash
 
-touch dummy.txt
-ls 
+echo 'hello' > dummy.txt
+
