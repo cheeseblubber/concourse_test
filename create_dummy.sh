@@ -2,4 +2,6 @@
 
 VERSION=`cat version/number`
 echo $VERSION
-echo 'hello world' > dummy-$VERSION.txt
+
+FILE=dummy-$VERSION.txt
+echo 'hello world' > $FILE
