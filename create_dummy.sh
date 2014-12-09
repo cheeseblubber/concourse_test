@@ -9,5 +9,7 @@ echo 'hello world' > $FILE
 
 cd artifact
 echo "https://s3.amazonaws.com/gocd-concourse-test/$FILE" > latest_artifact.txt
+git config --global user.email "kamleung911@gmail.com"
+git config --gloabl user.name "Kam Leung"
 git add latest_artifact.txt
 git commit -m "version $VERSION"
